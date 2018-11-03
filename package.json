@@ -6,5 +6,11 @@
   "repository": "git@github.com:picosix/zero2one.git",
   "author": "Tuan Nguyen <tuan.nguyen@picosix.com>",
   "license": "UNLICENSE",
-  "private": true
+  "private": true,
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
