@@ -1,0 +1,10 @@
+{
+  "name": "zero2one",
+  "version": "1.0.0",
+  "description": "From Zero to One",
+  "main": "index.js",
+  "repository": "git@github.com:picosix/zero2one.git",
+  "author": "Tuan Nguyen <tuan.nguyen@picosix.com>",
+  "license": "UNLICENSE",
+  "private": true
+}
