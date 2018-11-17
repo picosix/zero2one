@@ -11,7 +11,8 @@
     "start": "nodemon src/index.js"
   },
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "mongoose": "^5.3.12"
   },
   "devDependencies": {
     "nodemon": "^1.18.6"
