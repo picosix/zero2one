@@ -2,19 +2,14 @@
 // src/index.js
 
 const express = require("express");
-const mongoose = require("mongoose");
 
 const usersRouter = require("./routes");
+const models = require("./mongoose");
 
 const app = express();
 app.set("port", 3000); // <- Cấu hình
 
-const mongoURL = "mongodb://localhost:27017/zero2one";
-mongoose.connect(
-  mongoURL,
-  { useNewUrlParser: true }
-);
-app.set("mongoose", mongoose);
+app.set("models", models); // <-- Đổi tên biến từ mongoose thành models
 
 // Thay thế cho app.use("/", (req, res) => res.send("Hello World!"))
 app.get("/", (req, res) => res.send("Hello World!"));
